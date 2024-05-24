@@ -10,7 +10,7 @@ const App = () => {
   function upadteInput(e){
     let value=e.target.value;
     setInput(value)
-    setGreet("Hello "+value+" !")
+    setGreet("Hello "+value+ "!")
   }
   return (
     <div>
